@@ -9,7 +9,7 @@ void sortexp(){
     v.push_back(99);
     v.push_back(45);
     
-    cout<<sort(v.begin(),v.end());
+    sort(v.begin(),v.end());
 }
 int main(){
     return 0;
